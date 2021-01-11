@@ -1,0 +1,19 @@
+.language h3 {
+  margin: 25px 0 15px 0;
+  font-size: .9rem;
+  font-weight: 700;
+}
+.choice_language {
+  display: flex;
+  flex-direction: column;
+}
+.choice_language input {
+  margin: 0 10px 10px 0;
+}
+.language_button {
+   margin: 5px 0;
+}
+.language_button label {
+  cursor: pointer;
+  font-size: .9rem;
+}

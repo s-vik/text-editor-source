@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  height: 100px;
+  max-width: 1140px;
+}
+.footer_nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.footer_nav li {
+  padding: 8px 15px;
+}
+.footer_nav ul {
+  display: flex;
+}
+.language_switcher {
+  margin-left: auto;
+}
+.language_switcher .lang_item {
+  padding: 8px 15px;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  color: #000;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

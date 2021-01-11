@@ -1,0 +1,55 @@
+.make_order {
+  color: #212529;
+}
+.make_order_title {
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.no_wrap {
+  white-space: nowrap;
+}
+.requiredField {
+  position: relative;
+}
+.requiredField::before {
+  content: "*";
+  position: absolute;
+  color: red;
+  top: -5px;
+  left: -12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.form_field {
+  margin: 10px 0;
+  border-radius: 2px;
+  height: 35px;
+  display: block;
+  width: 90%;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+}
+.form_field:focus {
+  border-color: #4a90e2
+}
+.form_textarea_container {
+  position: relative;
+}
+.form_textarea {
+  min-height: 250px;
+  resize: none;
+}
+.form_textarea:focus {
+  border-color: #4a90e2
+}
+.quantity_symbols {
+  position: absolute;
+  bottom: -12px;
+  left: 2px;
+  color: #999;
+  font-weight: 700;
+  font-size: .8rem;
+  background-color: #fff;
+}
